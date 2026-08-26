@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI2VDIyOjIxOjA5Ljk0NDIyNyIsInVzZXJfaWQiOiI5OTkxODVjZi05M2MwLTRmNTktYWUzNi0yMTA5NzhiZjdkNDMifQ.CcBdlR6-4etSZn9_afM097_YQWRkDhSBUCQuHzk39_8' \
+  -H 'content-length: 335' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Mrs maintain individual pick list.","maxScore":93,"minScore":9,"description":"Feel despite group value. Industry investment around their away trouble black. Manage simple single arrive.","estimatedTime":"8 weeks","previewFileId":"18efa653-295a-4751-8141-5e0a1008b02c","createdByUserId":"999185cf-93c0-4f59-ae36-210978bf7d43"}'

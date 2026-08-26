@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI2VDIyOjIxOjA4Ljc2NTQ1MiIsInVzZXJfaWQiOiI4MWY0MDk5Zi1jMGU4LTQ3N2YtOTllNC0wNzgwNzU0OWZlZjMifQ.3rTPETDjYtgH9mWHfiSnjdYeX4LgQ7t60BXmljdWsXI' \
+  -H 'content-length: 334' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Stay tough business lose dark claim.","courseId":"798b78e1-6878-40fd-af86-68c991771f2c","maxScore":88,"minScore":27,"orderIndex":60,"description":"Serve accept region must audience. Ask list soldier choice small design. Sometimes action nice environmental significant international would against.","estimatedTime":"6 weeks"}'

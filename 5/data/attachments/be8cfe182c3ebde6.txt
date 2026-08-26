@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI2VDIyOjIxOjA1Ljk1OTE0NyIsInVzZXJfaWQiOiJmNGZjZmJiYy1lN2YzLTQ3ZDctYWE1YS0wMzI3YzU4ZjMwOGIifQ.7zQvSewzeVqy0o1kjWjeYs-xMZGPtQJOl3goaEifblM' \
+  -H 'content-length: 423' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Worker whole can ready down color.","maxScore":66,"minScore":28,"description":"Western something contain. All several bank draw car cup.\nSee thousand early hospital bring task.\nWin four require sometimes organization clearly. List majority try. Street support conference.","estimatedTime":"9 weeks","previewFileId":"a007e1cf-dd70-42d6-91e1-eb836994a0ec","createdByUserId":"f4fcfbbc-e7f3-47d7-aa5a-0327c58f308b"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/62920baf-02b8-4423-964c-b9208b5d399c' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI2VDIyOjIxOjA4LjIxNDI4MCIsInVzZXJfaWQiOiJjZjg4NzI4YS1mOTcxLTQ1MjMtOTBhNi1jMDk5MzIxMzM3NmQifQ.P0hueYxBmUMw6ll5ngShdoivGsnxA1M6SmwRQw3h5qk' \
+  -H 'content-length: 236' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Open account anyone measure customer cell.","maxScore":68,"minScore":6,"orderIndex":82,"description":"Gun prove little step beyond. Pm democratic child fear control feeling. Team allow ok site plan.","estimatedTime":"7 weeks"}'

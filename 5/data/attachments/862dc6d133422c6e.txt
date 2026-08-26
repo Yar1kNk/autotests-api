@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI2VDIyOjIxOjA2LjUxODIxMCIsInVzZXJfaWQiOiIzYmQzOTczZS01N2JmLTRkZDItOTc5ZC03N2NkOTQxN2U2YjYifQ.5yeNaKz8pwTYs4Hc4wze9VCzDJPaN7_hW2QKEiAfYn4' \
+  -H 'content-length: 416' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Campaign us site as nation such population.","maxScore":51,"minScore":19,"description":"Hope media determine couple. Through article house light exist.\nFact read others treatment. Evidence memory increase according. Company through head support hand describe blood.","estimatedTime":"9 weeks","previewFileId":"12ebb0e5-a5f5-488f-b4c3-8382f278f881","createdByUserId":"3bd3973e-57bf-4dd2-979d-77cd9417e6b6"}'

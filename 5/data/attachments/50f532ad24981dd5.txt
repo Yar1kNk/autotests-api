@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI2VDIyOjIxOjA3LjExNTg3OSIsInVzZXJfaWQiOiJiYzYwOTZmYS1lOTg0LTRhYTAtOThlMy1mZWIwZDIwYjk4YWYifQ.PhghEBqwksGTp1KQOQeHKn8qNQSKkiBH9hTDFeCwMYU' \
+  -H 'content-length: 325' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Where simple black prevent serious control.","maxScore":69,"minScore":10,"description":"Old security maybe box two federal. Particularly myself according few such listen form.","estimatedTime":"5 weeks","previewFileId":"452a987e-8a88-42f1-83fb-084b34c5fbda","createdByUserId":"bc6096fa-e984-4aa0-98e3-feb0d20b98af"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI2VDIyOjIxOjA3LjY2NDI0OCIsInVzZXJfaWQiOiIxNjBiMjAxYi1kMmU1LTRmYWYtYjg4YS1jMmU4MTZhMDc4ZWQifQ.cl8G6xtlhFD6ceAcWR5_5iIkYTuiuWcwTdL6qqbqoQk' \
+  -H 'content-length: 335' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Film wear must throw you family.","courseId":"067159dd-d2d0-457d-9cfb-82c4c4d7a8e5","maxScore":77,"minScore":10,"orderIndex":49,"description":"Discussion simply political hundred two energy water hot. Lose down on nearly. Compare season that yeah back they specific. Surface middle pattern agency.","estimatedTime":"8 weeks"}'

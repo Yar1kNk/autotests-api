@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI2VDIyOjIxOjA5LjM3NDUyMyIsInVzZXJfaWQiOiJkNjBhNDllOS04ZWQzLTQ2ZDUtODM3ZC1kYjBlNmExOWUwOGMifQ.tAd9dxJ81P4hewXulDvBJ3VJP7SwEbIfDbrgbpjAsy0' \
+  -H 'content-length: 430' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Would while practice century clearly green.","maxScore":87,"minScore":22,"description":"Such yet American and floor grow his. Know action down recent. Million single goal lot clearly.\nProject nice yes moment. Billion while believe force beautiful. Response billion subject first.","estimatedTime":"6 weeks","previewFileId":"3593ad98-47fd-4723-a0e3-d8c23ba26ae1","createdByUserId":"d60a49e9-8ed3-46d5-837d-db0e6a19e08c"}'

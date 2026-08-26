@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI2VDIyOjIxOjA5Ljk0NDIyNyIsInVzZXJfaWQiOiI5OTkxODVjZi05M2MwLTRmNTktYWUzNi0yMTA5NzhiZjdkNDMifQ.CcBdlR6-4etSZn9_afM097_YQWRkDhSBUCQuHzk39_8' \
+  -H 'content-length: 292' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Early fight save some measure age.","courseId":"7b6293a6-943e-4608-b691-0f413457d3e9","maxScore":65,"minScore":1,"orderIndex":74,"description":"Those particular thank up town why at middle. Certainly name plan very. Cultural crime experience age foreign.","estimatedTime":"2 weeks"}'
