@@ -65,7 +65,6 @@ def add_UserServiceServicer_to_server(servicer, server):
     server.add_registered_method_handlers('userservice.UserService', rpc_method_handlers)
 
 
- # This class is part of an EXPERIMENTAL API.
 class UserService:
     """Missing associated documentation comment in .proto file."""
 
