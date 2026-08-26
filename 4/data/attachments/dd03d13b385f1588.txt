@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI2VDIxOjU0OjU3LjQ0NDE0NCIsInVzZXJfaWQiOiJjZjNmZWIwYi0zMzhmLTQxM2UtYTUwMi0yMjRlMmU4NGQyZTEifQ.7eXwxl0JTWehyliUQs8Ehh15Kp6SaZtHD6ugN3i_RN4' \
+  -H 'content-length: 391' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ask owner board exactly.","maxScore":100,"minScore":7,"description":"Lot everyone available. Soldier design institution standard onto.\nHuge compare property study. Occur shake fight whether drop morning property. Politics hear over message.","estimatedTime":"2 weeks","previewFileId":"53f50413-5319-44eb-a656-126b39d7aecf","createdByUserId":"cf3feb0b-338f-413e-a502-224e2e84d2e1"}'

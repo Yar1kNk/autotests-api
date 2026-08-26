@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI2VDIxOjU0OjU4Ljc0NjUzMiIsInVzZXJfaWQiOiI5ZWYwYWYyMC0yM2Q1LTRiZmUtOWZlNC0zNDBmZWNjYzMyNzQifQ.I1yuT6YBiPlFT9Qz0ajLNcCukQCtF2n3RB0CfukdUd0' \
+  -H 'content-length: 423' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Respond sense across me pull test answer subject.","maxScore":100,"minScore":7,"description":"Want soon keep analysis toward machine hard. Test high news career professor executive why race. Force which study watch benefit.\nWhole foot watch physical. Shoulder remain send.","estimatedTime":"3 weeks","previewFileId":"3c8b993b-ef0f-475d-9a60-e08eca6e049a","createdByUserId":"9ef0af20-23d5-4bfe-9fe4-340feccc3274"}'

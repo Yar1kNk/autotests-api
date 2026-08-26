@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI2VDIxOjU0OjU1Ljc5NDQwNyIsInVzZXJfaWQiOiJlYjhjYzM2ZS04ZmQwLTQ2OTEtYmE0My01NDZhNzEzMDI5OGIifQ.sbElCYOKlJIm6YfA6JF2jkbgFpNhX_FpiheiGSEJuno' \
+  -H 'content-length: 404' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sort address international north with.","maxScore":54,"minScore":5,"description":"Edge on cost organization. Table use thing type look what pretty.\nDog thing recognize customer physical. Suffer bag loss course trade computer become. Card thus stuff eat.","estimatedTime":"3 weeks","previewFileId":"0f6524fd-c987-48ac-98bd-6cc6f154d648","createdByUserId":"eb8cc36e-8fd0-4691-ba43-546a7130298b"}'

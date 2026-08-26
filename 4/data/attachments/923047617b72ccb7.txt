@@ -1,0 +1,24 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:28 Make GET request to http://localhost:8000/api/v1/exercises/13ed7e9b-ff11-4ee4-bd61-f8aaeac76559
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises/13ed7e9b-ff11-4ee4-bd61-f8aaeac76559
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:92 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:68 Check exercise
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals to 13ed7e9b-ff11-4ee4-bd61-f8aaeac76559
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to Draw explain first yard here continue option.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "course_id" equals to 78bdf2a1-e2c6-4e80-9e06-706e65b02d3e
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 61
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 4
+INFO     BASE_ASSERTIONS:base.py:38 Check that "order_index" equals to 23
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Career ok tree part mother anything choose stand. Get language baby traditional choose. International either key.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 8 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:22 Validating JSON schema

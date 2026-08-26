@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI2VDIxOjU0OjU5LjM5MDQ0NiIsInVzZXJfaWQiOiIxZTEyZWY0NC01MTU5LTRkMzMtODJkNC1iMzEwNWNkOTkxNzEifQ.5YHGFIGavgjVK8tB1JOyGF3UlkeVpYxVfHYb8DNeNEM' \
+  -H 'content-length: 345' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Fight card worker treat model hold.","maxScore":90,"minScore":22,"description":"Everybody usually mission out product full. Heavy write understand. Establish phone talk dark involve perhaps born.","estimatedTime":"4 weeks","previewFileId":"8ed21c8c-f6d2-46a4-9506-61236ff39b82","createdByUserId":"1e12ef44-5159-4d33-82d4-b3105cd99171"}'

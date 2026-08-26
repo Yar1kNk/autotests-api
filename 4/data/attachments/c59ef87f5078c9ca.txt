@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI2VDIxOjU0OjU2Ljc4NjczMSIsInVzZXJfaWQiOiI1N2E0ZTU4NC02ZDQ1LTQ0YzQtYjMzOS05ZDk5ZTY4ZDdiZDAifQ.xMg-DuWszYMFoHiXA-D6HXqzodxV-BQJyC1ScgBwEdg' \
+  -H 'content-length: 392' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Method several result meet event item camera.","maxScore":66,"minScore":6,"description":"Sound chair education test present pattern social.\nArticle peace live price teacher. Half deep team weight behavior want. Officer seat scene land sound.","estimatedTime":"7 weeks","previewFileId":"a2236744-d7fe-4ca6-b840-85ec98985610","createdByUserId":"57a4e584-6d45-44c4-b339-9d99e68d7bd0"}'

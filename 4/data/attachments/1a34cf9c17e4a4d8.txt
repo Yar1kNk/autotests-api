@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI2VDIxOjU0OjU5LjM5MDQ0NiIsInVzZXJfaWQiOiIxZTEyZWY0NC01MTU5LTRkMzMtODJkNC1iMzEwNWNkOTkxNzEifQ.5YHGFIGavgjVK8tB1JOyGF3UlkeVpYxVfHYb8DNeNEM' \
+  -H 'content-length: 306' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Draw explain first yard here continue option.","courseId":"78bdf2a1-e2c6-4e80-9e06-706e65b02d3e","maxScore":61,"minScore":4,"orderIndex":23,"description":"Career ok tree part mother anything choose stand. Get language baby traditional choose. International either key.","estimatedTime":"8 weeks"}'
