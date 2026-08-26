@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI2VDIxOjQ2OjA5LjM5NTM3OSIsInVzZXJfaWQiOiJhM2Q4NDZmZi1kOGU0LTQwMTUtOWMzNC0zNjQ5NDc4NDZmMTIifQ.yfp51YQ-chS6Uv9SlcbQaRX6syb-id7Dzs7EVwiCfK8' \
+  -H 'content-length: 299' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Site cause alone difference.","maxScore":86,"minScore":23,"description":"Evening cover thank return. Plan leave would prevent foot head adult social.","estimatedTime":"4 weeks","previewFileId":"f46b1aa5-418a-43c6-af47-f572ab84a977","createdByUserId":"a3d846ff-d8e4-4015-9c34-364947846f12"}'

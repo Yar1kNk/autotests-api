@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI2VDIxOjQ2OjA3LjY1NDIyMyIsInVzZXJfaWQiOiI2NDVjN2Y2Zi02NjRjLTQ1ZjMtOWU4ZS00OTUwOTEwOGI5MTkifQ.xYZoIPyKiyA3I0QpzEV8S8i56QiAaU7QxhIRNtcuYlE' \
+  -H 'content-length: 350' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Upon after agent form difference.","maxScore":65,"minScore":2,"description":"Environment magazine experience great. Front thought report.\nLeft commercial southern choice way. Floor staff alone coach.","estimatedTime":"9 weeks","previewFileId":"64843223-5fd1-4831-9a45-b0f014bd44d9","createdByUserId":"645c7f6f-664c-45f3-9e8e-49509108b919"}'

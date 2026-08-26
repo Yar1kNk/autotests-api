@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI2VDIxOjQ2OjA3LjEyODE2MCIsInVzZXJfaWQiOiJjMjJiZGEyNy1iNGRmLTQyMjAtYWRhNi01OGIzZjQ4Y2E3M2YifQ.AFSxnGyhbbPxQ08Rvga4UxVYqEC5sbHU60Ae6Hz9LgM' \
+  -H 'content-length: 368' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Head heart drug various.","maxScore":68,"minScore":14,"description":"Democratic look society among. During also drive sister have approach.\nJust trial keep new unit need newspaper. Hundred imagine against become this.","estimatedTime":"2 weeks","previewFileId":"e83ea086-4f3f-496d-853f-609e176d1225","createdByUserId":"c22bda27-b4df-4220-ada6-58b3f48ca73f"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI2VDIxOjQ2OjA5LjM5NTM3OSIsInVzZXJfaWQiOiJhM2Q4NDZmZi1kOGU0LTQwMTUtOWMzNC0zNjQ5NDc4NDZmMTIifQ.yfp51YQ-chS6Uv9SlcbQaRX6syb-id7Dzs7EVwiCfK8' \
+  -H 'content-length: 329' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Call section nice activity grow identify member author.","courseId":"34c72283-102a-4536-a4e6-888b340e0669","maxScore":67,"minScore":30,"orderIndex":42,"description":"Student significant fine. None appear difficult between world thing tend. Item simple kid thing response west finally arrive.","estimatedTime":"5 weeks"}'

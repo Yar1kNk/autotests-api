@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI2VDIxOjQ2OjA4LjQ4MjM0OCIsInVzZXJfaWQiOiJiYjg2NzRlNC05MzIwLTQ5NGQtYWQ5Yy0xY2MxNmQ4YmM2M2MifQ.Zvw8WoJCpIMvuzjvYvKmOvZp9mGmqfAY1y14QEH-e-M' \
+  -H 'content-length: 390' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Politics successful half popular.","maxScore":59,"minScore":15,"description":"Body give one bring not. Indicate television conference bring. Mention act anyone player.\nCreate top defense blood. Sit east raise baby. Past cold special house.","estimatedTime":"3 weeks","previewFileId":"b3f40e79-ac2c-462a-b147-75345105a754","createdByUserId":"bb8674e4-9320-494d-ad9c-1cc16d8bc63c"}'
